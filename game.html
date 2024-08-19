@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Guess the randomly selected Number between 1 to 100</h1>
+    <div class="main">
+    
+<input type="number" name="number" class="input" id="guessinp" placeholder="Enter your guess"  min="1" max="100">
+    <button type="button" class="button" onclick="check()">
+        <div class="button-top">CHECK</div>
+        <div class="button-bottom"></div>
+        <div class="button-base"></div>
+      </button>
+</div>
+<div class="hint">
+    <h2></h2>
+</div>
+<div class="output">
+    <div class="result">
+    <h2>Guesses :- </h2>
+    <p id="guess"></p>
+   
+    <div class="score"><h2>Score :- </h2>
+        <p id="score"></p></div>
+</div>
+    <p id="result" class="res"></p>
+    
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
